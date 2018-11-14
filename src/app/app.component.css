@@ -1,0 +1,44 @@
+#calculator{
+    background-color:rgb(39, 23, 2);
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    padding: 2%;
+    border: solid rgb(158, 109, 35);
+    border-radius: 20px;
+    height: 360px;
+    width: 250px;
+}
+
+.display{
+    background-color: rgb(158, 109, 35);
+    color: black;
+    font-size: 1.5em;
+    padding: 10%;
+    border-radius: 2px;
+    text-align: right;
+    height: 4px;
+}
+
+.displayTop{
+    margin-bottom: 10%;
+}
+
+button{
+    background-color: rgb(158, 109, 35);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border-radius: 40%;
+    width: 37px;
+    height: 35px;
+    font-size: 110%;
+    text-align: center;
+}
+
+.delete, .clear{
+    width: 40%;
+    border-radius: 10%;
+    background-color: rgb(204, 180, 72);
+}
